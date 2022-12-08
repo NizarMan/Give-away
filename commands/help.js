@@ -9,7 +9,6 @@ module.exports.run = async (client, message, args) => {
     let help = new Discord.MessageEmbed()
       .setTitle("Command List & Guide for the Bot")
       .setDescription("Below are Commands you can do with Bot, Right now there is only 6 commands available, more commands will be added soon.")
-      .setImage("https://cdn.discordapp.com/attachments/1005150655385714779/1039775278534250506/Give_away.png")
       .addField("🎁 Giveaway 🎁","start [channel-name] [Time] [winners] [Prize]\nreroll [prize name]\nend [prize name]")
       .addField("Examples", "g!start #giveaway 5m 1 Testing\ng!end Testing\ng!reroll Testing")
       .addField("Utility", "ping, invite", true)
